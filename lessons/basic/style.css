@@ -1,0 +1,14 @@
+body {
+  background-color: rgba(123, 115, 241, 0.342);
+  color: black;
+}
+h1 {
+  background-color: rgba(127, 127, 251, 0.561);
+}
+#top {
+  color: red;
+}
+ul,
+ol {
+  border: solid 2px white;
+}

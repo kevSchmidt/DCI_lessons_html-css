@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- page information -->
+    <meta charset="UTF-8" />
+    <meta name="Kevin" content="it is a web page about me" />
+    <meta name="author" content="Kevin Schmidt" />
+    <meta name="keywords" content="web developer,css,html,javascript" />
+    <meta name="viewport" content="width=450px, initial-scale=1.0" />
+    <meta name="description" content="HTML test webpage" />
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- page title -->
+    <title>Kevin Skywalker</title>
+    <!-- style -->
+    <style>
+      /* Do not style here, use a css page !! */
+    </style>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+
+    <!-- HEADER -->
+    <h1 id="top">Big header</h1>
+    <h5>Little header</h5>
+
+    <!-- PARAGRAPH -->
+    <p>
+      <b>This is a paragraph:</b><br />
+      <i>Lorem ipsum</i> <em>dolor</em> sit amet consectetur 44m<sup>2</sup>
+      adipisicing elit.<br />
+      Nihil ab, ipsa saepe <small>tout petit</small> quas ea debitis.<br />
+      <strong>L'Homme est il un monstre ou le monstre un Homme ?</strong>
+      <del>I didn't wanted to write that!</del> <br />
+      <mark>"Les fleurs du mal"</mark>
+    </p>
+
+    <!-- LINK -->
+    <a href="https://www.google.com/" target="blank" title="this is my link"
+      >Link to Google</a
+    >
+
+    <br /><br /><br />
+
+    <!-- IMAGE -->
+    <img
+      src="guitar.jpg"
+      alt="Just a guitar ❤️"
+      width="580px"
+      height="400"
+      title="Chill in nature"
+      name="Guitar"
+      id="3"
+      class="img"
+    />
+
+    <br /><br />
+
+    <!-- TABLE -->
+    <table>
+      <caption>
+        My table
+      </caption>
+      <tr>
+        <!-- table head -->
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+        <th>Activity</th>
+      </tr>
+      <tr>
+        <!-- table data -->
+        <td>Julia</td>
+        <td>25</td>
+        <td>France</td>
+        <td>Florist</td>
+      </tr>
+      <tr>
+        <td>Mario</td>
+        <td>36</td>
+        <td>Italia</td>
+        <td>Actor</td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <!-- LIST -->
+    <!-- unordered list -->
+    <caption>
+      My breakfast:
+    </caption>
+    <ul>
+      <li>Bacon</li>
+      <li>Eggs</li>
+      <li>Beans</li>
+    </ul>
+    <!-- ordered list -->
+    <caption>
+      My pets:
+    </caption>
+    <ol type="I">
+      <li>Tom the cat</li>
+      <li>Jerry the mouse</li>
+      <li>Franklin the turtle</li>
+    </ol>
+
+    <!-- FORM -->
+    <form action="index.php" method="POST">
+      <!-- label -->
+      <label for="firstName">First Name</label><br />
+      <!-- input -->
+      <input
+        type="text"
+        name="fame"
+        id="firstName"
+        class="text"
+        placeholder="You are great!"
+      />
+      <br />
+      <label for="lastName">Last Name</label> <br />
+      <input type="text" name="lname" id="lastName" /> <br />
+      <input type="text" name="fixed value" value="Germany" readonly /> <br />
+      <input type="checkbox" name="donation" id="money" checked /> Give me money
+      <br />
+      <input type="submit" value="send" />
+      <input type="reset" value="clean" />
+    </form>
+    <br />
+
+    <!-- BOOKMARK -->
+    <a href="#top">Bookmark goes to: id = "top"</a>
+  </body>
+</html>
