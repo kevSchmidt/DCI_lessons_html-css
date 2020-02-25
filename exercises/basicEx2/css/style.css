@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+#audio {
+  text-align: center;
+}
+h1 {
+  background-color: rgb(0, 8, 8);
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+#story-header {
+  background-color: rgba(141, 141, 247, 0.472);
+  font-size: 30px;
+  padding-left: 15px;
+}
+.first-paragraph {
+  background-color: rgba(141, 141, 247, 0.192);
+  padding: 15px;
+}
+.imgCat {
+  border: black solid 2px;
+}
+.second-paragraph {
+  background-color: rgba(141, 141, 247, 0.192);
+  padding: 15px;
+}
+.picture-container {
+  display: flex;
+}
+.third-paragraph {
+  display: flex;
+  background-color: rgba(141, 141, 247, 0.192);
+  padding: 15px;
+}
+#title-third-para {
+  font-size: 20px;
+}
+.footer {
+  background-color: rgba(56, 54, 54, 0.747);
+}
+#map {
+  margin: 10px;
+}
+#footer-title {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.993);
+}
+#footer-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#footer-text {
+  background-color: rgba(255, 255, 255, 0.63);
+  width: 400px;
+  height: 250px;
+  border: black solid 1px;
+  padding: 15px;
+}
+#cat-para {
+  font-size: 45px;
+  text-align: center;
+}
