@@ -1,8 +1,7 @@
 body {
   margin: 0;
-}
-#audio {
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 h1 {
   background-color: rgb(0, 8, 8);
@@ -14,16 +13,17 @@ h1 {
   background-color: rgba(141, 141, 247, 0.472);
   font-size: 30px;
   padding-left: 15px;
+  width: 20%;
 }
 .first-paragraph {
-  background-color: rgba(141, 141, 247, 0.192);
+  background-color: rgba(141, 141, 247, 0.472);
   padding: 15px;
 }
 .imgCat {
   border: black solid 2px;
 }
 .second-paragraph {
-  background-color: rgba(141, 141, 247, 0.192);
+  background-color: rgba(141, 141, 247, 0.472);
   padding: 15px;
 }
 .picture-container {
@@ -31,7 +31,7 @@ h1 {
 }
 .third-paragraph {
   display: flex;
-  background-color: rgba(141, 141, 247, 0.192);
+  background-color: rgba(141, 141, 247, 0.472);
   padding: 15px;
 }
 #title-third-para {
@@ -56,11 +56,14 @@ h1 {
 #footer-text {
   background-color: rgba(255, 255, 255, 0.63);
   width: 400px;
-  height: 250px;
+  height: 230px;
   border: black solid 1px;
   padding: 15px;
 }
 #cat-para {
   font-size: 45px;
+  text-align: center;
+}
+#audio {
   text-align: center;
 }
