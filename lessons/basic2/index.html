@@ -3,7 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lesson 2</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Lesson 2</h1>
+    <p>
+      <mark>Lorem ipsum </mark> dolor sit amet consectetur adipisicing elit.
+      Reiciendis voluptas voluptates autem tempore facilis deleniti officia
+      nobis eaque excepturi accusantium quod nemo repellendus nesciunt sint
+      soluta voluptatibus temporibus, amet libero perferendis dolores cupiditate
+      culpa. Numquam error ipsam natus, aliquam consequuntur sit doloremque
+      impedit, labore, soluta iure architecto quo? Enim, repudiandae!
+    </p>
+    Most needed thing:
+    <ul>
+      <li>Pizza</li>
+      <li>Tree</li>
+      <li>Water</li>
+    </ul>
+    <ol>
+      <li>Blue</li>
+      <li>Violet</li>
+      <li>White</li>
+    </ol>
+    <table>
+      <th id="name">Name</th>
+      <th id="age">Age</th>
+      <tr>
+        <td class="firstRow">Kevin</td>
+        <td id="firstRow">27</td>
+      </tr>
+    </table><br>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div><br>
+    <!-- send all info to index.js with method GET -->
+    <form action="index.js" method="GET">
+      <!-- all kind of input -->
+      <input type="text" name="name" id="n1" placeholder="Your name" maxlength="8" required autofocus/><span id="required">*</span><br>
+      <input type="text" name="address" id="ad1" placeholder="Your address" size="25"/> <br><br>
+      <input type="radio" name="gender" id="r1" value="male" /> Male
+      <input type="radio" name="gender" id="r2" value="female" /> Female
+      <input type="radio" name="gender" id="r3" value="other" /> Other <br><br>
+      Kids <input type="number" name="num" id="n1" value="2"><br><br>
+      <input type="image" src="img/italy.jpg" alt="italy" width="250px" height="250px"><br>
+      Sad<input type="range" name="weather" id="w1">Happy <br>
+      Birthday <input type="date" name="date" id="d1"> <br><br>
+      <input type="button" value="Hello click me baby"> <br>
+      <input type="checkbox" name="c1" id="check1" checked> I am Stupid
+      <input type="checkbox" name="c1" id="check2"> I am Dumb
+      <input type="checkbox" name="c1" id="check3"> Just a bird <br>
+      <!-- submit button -->
+      <input type="submit" value="Send">
 </html>

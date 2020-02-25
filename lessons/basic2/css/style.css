@@ -1,0 +1,46 @@
+/* accessing simple element */
+table {
+  background-color: rgba(255, 0, 0, 0.315);
+}
+th {
+  font-size: 22px;
+}
+td {
+  font-size: 18px;
+}
+/* accessing child element */
+ul li {
+  color: #6f09e8;
+}
+/* accessing id with # notation */
+#name {
+  color: royalblue;
+}
+#firstRow {
+  color: yellow;
+}
+#required {
+  color: red;
+}
+/* accessing class with dote notation */
+.age {
+  color: violet;
+}
+.firstRow {
+  color: whitesmoke;
+}
+/* accessing all div */
+div {
+  width: 50px;
+  height: 50px;
+}
+/* accessing individual div */
+.div1 {
+  background-color: yellow;
+}
+.div2 {
+  background-color: rgba(34, 73, 246, 0.664);
+}
+.div3 {
+  background-color: rgba(71, 255, 184, 0.452);
+}
