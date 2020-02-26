@@ -1,0 +1,124 @@
+body {
+  background-image: url(../img/ship.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-img {
+  margin: 180px 0px 0px 35px;
+  width: 400px;
+}
+.fish-img {
+  width: 400px;
+  height: 300;
+  border: 1px solid black;
+}
+img {
+  padding: 5px 5px 20px 5px;
+  background-color: white;
+}
+img:hover {
+  transform: rotate(25deg);
+  transition-duration: 2s;
+}
+.main-text {
+  font-size: 20px;
+}
+h4 {
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+}
+/* accessing multiple elements */
+h1,
+h4,
+p,
+div {
+  color: lavenderblush;
+}
+.exercise {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.square {
+  border: 3px solid black;
+  width: 55px;
+  height: 55px;
+  background-color: red;
+}
+.rectangle {
+  border: 3px solid black;
+  width: 55px;
+  height: 80px;
+  background-color: blue;
+}
+.circle {
+  border: 3px solid black;
+  width: 55px;
+  height: 55px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.circle-container {
+  border: 3px solid black;
+  width: 55px;
+  height: 55px;
+  background-color: green;
+}
+.speCircle {
+  border: 3px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid blue;
+}
+#yin-yang {
+  width: 96px;
+  box-sizing: content-box;
+  height: 48px;
+  background: #eee;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px 2px 50px 2px;
+  border-radius: 100%;
+  position: relative;
+}
+#yin-yang:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #eee;
+  border: 18px solid black;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}
+#yin-yang:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: black;
+  border: 18px solid #eee;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}
+.footer {
+  text-align: center;
+  color: black;
+  background-color: rgba(255, 235, 205, 0.425);
+  font-size: 25px;
+}
