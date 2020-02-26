@@ -2,6 +2,7 @@ body {
   background-image: url(../img/ship.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
 }
 .main-img {
   margin: 180px 0px 0px 35px;
@@ -28,6 +29,7 @@ h4 {
 }
 p {
   font-size: 20px;
+  line-height: 25px;
 }
 /* accessing multiple elements */
 h1,
@@ -36,6 +38,17 @@ p,
 div {
   color: lavenderblush;
 }
+.move {
+  font-size: 55px;
+  background-color: rgba(217, 255, 0, 0.945);
+  border: 2px solid black;
+}
+.move:hover {
+  box-shadow: 3px 5px 5px gray;
+  margin-left: 1500px;
+  transition-duration: 8s;
+}
+/* form exercise */
 .exercise {
   display: flex;
   align-items: center;
@@ -73,13 +86,12 @@ div {
   background-color: pink;
   border-radius: 50%;
 }
-
 .triangle {
   width: 0;
   height: 0;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 50px solid blue;
+  border-bottom: 50px solid rgb(255, 0, 234);
 }
 #yin-yang {
   width: 96px;
