@@ -24,8 +24,12 @@ img:hover {
 .main-text {
   font-size: 20px;
 }
+h1 {
+  font-family: "Indie Flower", sans-serif;
+}
 h4 {
   font-size: 25px;
+  font-family: "Indie Flower", sans-serif;
 }
 p {
   font-size: 20px;
@@ -39,14 +43,18 @@ div {
   color: lavenderblush;
 }
 .move {
-  font-size: 55px;
-  background-color: rgba(217, 255, 0, 0.945);
+  font-size: 65px;
+  background-color: green;
   border: 2px solid black;
 }
 .move:hover {
   box-shadow: 3px 5px 5px gray;
-  margin-left: 1500px;
-  transition-duration: 8s;
+  margin-left: 800px;
+  transition-duration: 5s;
+  background-color: red;
+}
+.footer {
+  font-family: "Indie Flower", sans-serif;
 }
 /* form exercise */
 .exercise {
