@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  padding: 3px;
+  margin: 8px;
+}
+a:active {
+  color: black;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  background-color: rgba(0, 0, 255, 0.815);
+  transform: scaleX(1.5);
+  color: white;
+  transition: 1s;
+  font-weight: 600;
+}
+.index-text {
+  margin: 35px 120px 20px 120px;
+  background-color: rgba(128, 128, 128, 0.349);
+  padding: 5px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 18px;
+}
+p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* about */
+img {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.img-lion {
+  text-align: center;
+  margin: 40px 0px 20px 0px;
+}
+img:hover {
+  box-shadow: 8px 8px 8px rgb(24, 8, 18);
+  transition: 2s;
+}
+.lion-text {
+  padding: 50px 100px 50px 100px;
+  text-align: center;
+}
+/* help */
+.arabic-text {
+  text-align: right;
+}
+.text-help {
+  text-align: center;
+}
+.main-text {
+  padding: 30px 150px 30px 150px;
+}
+.main-text-container {
+  border: solid 1px black;
+  padding: 25px;
+}
+/* call */
+.text-call {
+  text-align: center;
+  margin: 20px 200px 50px 200px;
+}
