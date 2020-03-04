@@ -5,3 +5,5 @@
 ![](./img/relative.png)
 ### Position fixed:
 ![](./img/fixed.png)
+### Position absolute:
+![](./img/absolute.png)
