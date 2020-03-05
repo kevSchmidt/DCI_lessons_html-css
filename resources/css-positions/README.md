@@ -7,3 +7,5 @@
 ![](./img/fixed.png)
 ### Position absolute:
 ![](./img/absolute.png)
+### Example:
+![](./img/layout.png)
