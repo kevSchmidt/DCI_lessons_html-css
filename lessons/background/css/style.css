@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+}
+body {
+  background-color: rgba(0, 255, 255, 0.397);
+}
+.main-text {
+  /* display */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* background-image */
+  background-color: rgba(0, 255, 255, 0.397);
+  background-image: url(../img/fly.gif), url(../img/sky.png);
+  background-repeat: repeat-x, no-repeat;
+  background-position: center;
+  background-size: 90rem, cover;
+  /* background: url(../img/sky.png), no no-repeat center; */
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+}
+/* background-clip: border-box; */
+.ex1 {
+  border: 7px black dashed;
+  padding: 2rem;
+  background-color: blue;
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.ex2 {
+  border: 2px black solid;
+  padding: 2rem;
+  background-color: blue;
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+.ex3 {
+  border: 7px black dashed;
+  padding: 2rem;
+  background-color: blue;
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+.ex4 {
+  background-image: url(../img/bird.png);
+  background-size: 500px;
+  padding: 2rem;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* npm live-server */
