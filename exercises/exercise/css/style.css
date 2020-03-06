@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/sky.jpg);
+  background-size: cover;
+  background-color: black;
+}
+.cloud {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/bird.gif), url(../img/bird3.gif),
+    url(../img/bird.gif), url(../img/cloud.gif);
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  background-size: 400px, 30px, 15px, 35%;
+  background-position: left, center, top;
+}
