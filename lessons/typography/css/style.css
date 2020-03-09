@@ -60,3 +60,21 @@ p {
   /* text-indent */
   text-indent: 2rem;
 }
+ul {
+  text-align: center;
+  background-color: cornflowerblue;
+}
+i {
+  color: blueviolet;
+  font-size: xx-large;
+}
+.gif {
+  background-image: url(../img/pika.gif);
+  background-size: cover;
+  width: 210px;
+  height: 150px;
+  transition: 9s;
+}
+.gif:hover {
+  margin-left: 100vw;
+}

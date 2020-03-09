@@ -1,0 +1,18 @@
+.ref {
+  background-image: url(../img/reference.png);
+  width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+.main-container {
+  margin: 1rem;
+}
+.note {
+  font-weight: bold;
+}
+.holidays {
+  font-style: italic;
+}
+.sup {
+  vertical-align: 5px;
+}
