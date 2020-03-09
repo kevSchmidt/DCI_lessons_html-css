@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+  /* add variables */
+  --color-font: black;
+  --padding-main-text: 2rem;
+}
+/* font-link */
+@font-face {
+  font-family: "Indie Flower", cursive;
+  src: url(../fonts/IndieFlower-Regular.ttf);
+}
+.main-text {
+  margin: 0 auto;
+  padding: var(--padding-main-text);
+  width: 40vw;
+  background-color: azure;
+  /* font-family */
+  font-family: "Indie Flower", cursive;
+}
+h1 {
+  color: var(--color-font);
+  /* font-size */
+  font-size: 3rem;
+  /* text.align */
+  text-align: center;
+  /* text shadow */
+  text-shadow: 2px 2px 2px purple;
+}
+h1:hover {
+  /* text transform */
+  text-transform: uppercase;
+  /* direction */
+  direction: ltr;
+  /* writing mode */
+  writing-mode: vertical-lr;
+  /* text-orientation */
+  text-orientation: upright;
+}
+span {
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px purple;
+}
+p {
+  font-size: 1.2rem;
+  /* font-style */
+  font-style: oblique 90deg;
+  /* font-weight */
+  font-weight: 500;
+  /* font-shorthand */
+  font: oblique 90deg 1.2rem "Indie Flower";
+  /* font-variant */
+  font-variant: normal;
+  /* line-height */
+  line-height: 2rem;
+  /* text-indent */
+  text-indent: 2rem;
+}
