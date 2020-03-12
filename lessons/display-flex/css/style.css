@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.daddy {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* direction */
+  flex-direction: column;
+  /* justify content */
+  justify-content: center;
+  /* align item */
+  align-items: center;
+  /* flex wrap */
+  flex-wrap: wrap;
+  /* align content */
+  align-content: center;
+  /* flex-flow => flex direction + flex wrap */
+  background-color: azure;
+}
+.baby1 {
+  width: 500px;
+  height: 100px;
+  order: 1;
+  /* flex parameters */
+  /* flex: 1 1 22%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 22%; */
+  background-color: black;
+}
+.baby2 {
+  width: 500px;
+  height: 100px;
+  order: 2;
+  /* nested flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background-color: red;
+}
+.baby3 {
+  width: 500px;
+  height: 100px;
+  order: 3;
+  background-color: yellow;
+}
+.pika {
+  margin-right: 50rem;
+  width: 350px;
+  height: 250px;
+  /* order */
+  order: 4;
+  /* align self */
+  align-self: flex-start;
+  background-image: url(../img/pika.gif);
+  background-size: cover;
+}

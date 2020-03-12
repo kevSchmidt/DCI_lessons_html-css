@@ -1,0 +1,16 @@
+/* MOBILE SIZE */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgba(152, 238, 130, 0.5);
+  }
+  /* hamburger */
+  .hamburger {
+    margin: 0.3rem;
+    background-color: black;
+    width: 2.2rem;
+    height: 0.3rem;
+  }
+  .navText {
+    display: none;
+  }
+}
