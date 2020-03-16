@@ -1,0 +1,77 @@
+/* DISPLAY GRID */
+/* fr -> fraction of user view: more responsive for grid  */
+/*  % -> pour cent of the div */
+/* repeat() -> (repeat time, width or heigh) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: azure;
+}
+/* MAIN CONTAINER */
+.main1 {
+  padding: 1rem;
+  height: 100vh;
+  /* display grid */
+  display: grid;
+  /* columns properties */
+  grid-template-columns: repeat(3, 1fr);
+  /* rows properties */
+  grid-template-rows: repeat(6, 6.8rem);
+  /* template area */
+  grid-template-areas: "box1 box1 box3" "box1 box1 box3" "box4 box2 box2" "box4 box2 box2" "box6 box6 box5" "box6 box6 box5";
+  /* row and columns gap */
+  row-gap: 1.5rem;
+  column-gap: 1rem;
+}
+/* BOX */
+.box1 {
+  grid-area: box1;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.123);
+  /* grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2; */
+}
+.box2 {
+  grid-area: box2;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.123);
+}
+.box3 {
+  grid-area: box3;
+  background-image: url(/img/berlin.jpg);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.box4 {
+  grid-area: box4;
+  background-image: url(/img/paris.jpg);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.box5 {
+  grid-area: box5;
+  background-image: url(/img/roma.jpg);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.box6 {
+  grid-area: box6;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.123);
+}
+/* TEXT */
+p {
+  padding: 2rem;
+  font-size: 1rem;
+}
