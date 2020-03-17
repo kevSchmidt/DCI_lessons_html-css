@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+  background-color: rgba(128, 128, 128, 0.384);
+}
+/* BODY */
+body {
+  border: 2px dashed green;
+}
+/* MAIN CONTAINER */
+.main {
+  /* center with margin */
+  margin: 0 auto;
+  width: 60vw;
+  height: 60vh;
+  /* position relative:
+    we want to to have our purple circle inside */
+  position: relative;
+  border: 2px dotted red;
+}
+/* CIRCLE CONTAINER */
+.circle {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: white 1px solid;
+}
+/* PURPLE CIRCLE */
+.circle.purple {
+  /* position absolute: 
+    we fixe the position of the element inside the relative parent */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(128, 0, 128, 0.521);
+}
+/* ORANGE CIRCLE */
+.circle.orange {
+  font-size: 1.5rem;
+  /* center heart with display flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position relative:
+    we want to position our orange circle inside the parent */
+  position: relative;
+  top: 10rem;
+  left: 10rem;
+  background-color: orange;
+}
+/* RED CIRCLE */
+.circle.red {
+  /* position absolute outside the relative container:
+      we want our red circle fixe for the HTML */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+/* MEDIA QUERIES */
+/* background will be blue if user print it */
+@media print {
+  body {
+    background-color: royalblue;
+  }
+}
+/* background will be green if width < 500px */
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: green;
+  }
+}
+/* background will be black if width > 900px */
+@media only screen and (min-width: 900px) {
+  body {
+    background-color: black;
+  }
+}
+/* background will be pink if device is turn */
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: pink;
+  }
+}
+
+/* ---------- MEDIA QUERIES: STANDARDS VALUES ---------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
