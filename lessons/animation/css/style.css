@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+  overflow: hidden;
+  /* create variable */
+  --box-width: 100%;
+  --box-color: rgba(0, 0, 255, 0.034);
+}
+/* BACKGROUND IMAGE */
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/clouds.jpg);
+  background-size: cover;
+}
+/* BOX */
+.box {
+  text-align: center;
+  width: var(--box-width);
+  height: 100%;
+  font-size: 2rem;
+  color: var(--box-color);
+  /* need relative position to animate it */
+  position: relative;
+  /* create a name */
+  animation-name: move-down;
+  /* duration */
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  /* repetition */
+  animation-iteration-count: infinite;
+}
+@keyframes move-down {
+  from {
+    top: 0;
+    color: white;
+  }
+  to {
+    top: 50vh;
+    font-size: 7rem;
+  }
+}
