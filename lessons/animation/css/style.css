@@ -33,6 +33,17 @@
   animation-timing-function: linear;
   /* repetition */
   animation-iteration-count: infinite;
+  /* delay before animation start */
+  animation-delay: 3s;
+  /* direction */
+  animation-direction: alternate;
+  /* progression */
+  animation-fill-mode: both;
+  /* play / pause */
+  animation-play-state: running;
+  /* SHORTHAND ORDER */
+  /* animation: name duration timing-function
+   delay iteration-count direction fill-mode */
 }
 @keyframes move-down {
   from {
