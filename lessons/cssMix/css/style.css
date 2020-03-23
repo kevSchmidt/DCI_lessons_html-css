@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* OVERFLOW */
+p {
+  width: 8rem;
+  height: 8rem;
+  font-size: 1.8rem;
+  overflow: scroll;
+  white-space: normal;
+  overflow-wrap: normal;
+  background-color: darkcyan;
+}
+/* POUR CENT */
+.main {
+  width: 75vw;
+  height: 50vh;
+  background-color: darkorchid;
+}
+.box {
+  width: 50%;
+  height: 100%;
+  background-color: darkslateblue;
+}
+/* img vs background-image */
+/* https://blog.px-lab.com/html-img-tag-vs-css-background-image/ */
+
+/* clip-path */
+/* https://bennettfeely.com/clippy/ */
+
+/* SVG */
+/* https://developer.mozilla.org/en-US/docs/Web/SVG */
