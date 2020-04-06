@@ -1,2 +1,1 @@
-# HTML-CSS
-![](./img/cat.gif)
+![](./img/htmlLogo.gif)![](./img/cssLogo.gif)
