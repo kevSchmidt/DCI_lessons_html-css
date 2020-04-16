@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(115deg, $color-black 32%, $color-blue);
+
+  @include u-flex-center;
+
+  @include font-setup(arial, 1.5rem, bold);
+
+  &__text {
+    width: 30%;
+    height: 15%;
+    border-radius: 3px;
+    border: 1px solid $color-grey;
+    background-color: rgba($color-white, 0.3);
+    color: $color-white;
+    transition: all 0.3s;
+
+    @include u-flex-center;
+
+    &:hover {
+      width: 28%;
+      height: 10%;
+      border-radius: 100px;
+      background-color: rgba($color-white, 0.8);
+      color: $color-black;
+    }
+  }
+}

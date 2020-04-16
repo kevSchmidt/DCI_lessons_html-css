@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: #777;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 1rem;
+}
+
+.palette {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.palette__box {
+  height: 40vh;
+  width: 22vw;
+  border: 2px solid #eee;
+  border-radius: 3px;
+}
+.palette__color {
+  height: 70%;
+}
+.palette__color--1 {
+  background-color: #ffc83f;
+}
+.palette__color--2 {
+  background-color: #fa5e5b;
+}
+.palette__color--3 {
+  background-color: #1d508d;
+}
+.palette__color--4 {
+  background-color: #684e79;
+}
+.palette__color__description {
+  font-size: 5rem;
+  width: 90%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

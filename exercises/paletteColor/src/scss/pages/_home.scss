@@ -1,0 +1,40 @@
+.palette {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  &__box {
+    height: 40vh;
+    width: 22vw;
+    border: 2px solid $color-grey;
+    border-radius: 3px;
+  }
+
+  &__color {
+    height: 70%;
+
+    &--1 {
+      background-color: $color-yellow;
+    }
+
+    &--2 {
+      background-color: $color-pink;
+    }
+
+    &--3 {
+      background-color: $color-blue;
+    }
+
+    &--4 {
+      background-color: $color-purple;
+    }
+
+    &__description {
+      font-size: 5rem;
+      width: 90%;
+      text-align: center;
+    }
+  }
+}
