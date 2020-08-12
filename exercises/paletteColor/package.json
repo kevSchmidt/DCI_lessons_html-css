@@ -23,7 +23,8 @@
     "gh-pages": "^2.1.1",
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^7.1.0",
-    "sass": "^1.26.3"
+    "sass": "^1.26.3",
+    "lodash": ">=4.17.19"
   },
   "dependencies": {
     "brand-colors": "^2.1.1"
