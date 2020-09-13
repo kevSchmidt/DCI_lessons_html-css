@@ -9,6 +9,7 @@
   "author": "kevin",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "yargs-parser": ">=13.1.2"
   }
 }
