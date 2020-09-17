@@ -1,8 +1,6 @@
 # HTML & CSS
 
-- Lessons
-- Exercises
-- Resources
+
 
 ![](./img/html-css.gif)
 
